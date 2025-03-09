@@ -1,0 +1,6 @@
+first=int(input())
+second=int(input())
+if second>first:
+  print(first)
+else:
+  print(second)
