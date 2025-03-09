@@ -1,0 +1,7 @@
+score1, score2, score3 = map(int,input().split())
+if score1>score2>score3 or score1>score3>score2:
+  print(score1)
+elif score2>score1>score3 or score2>score3>score1:
+  print(score2)
+else:
+  print(score3)
