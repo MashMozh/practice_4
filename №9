@@ -1,0 +1,61 @@
+print('Собака короткошерстной породы?')
+answer=input()
+if answer=='да' or answer=='Да':
+  print('Рост собаки менее 50см?')
+  hight1=input()
+  if hight1=='да' or hight1=='Да':
+    print('У собаки короткий хвост?')
+    tail=input()
+    if tail=='да' or tail=='Да':
+      print('Английский бульдог')
+    else:
+      print('У собаки длинные уши?')
+      ears=input()
+      if ears=='да' or ears=='Да':
+        print('Гончая')
+      else:
+        print('У собаки короткое тело?')
+        body=input()
+        if body=='да' or body=='Да':
+          print('Мопс')
+        else:
+          print('Чихуахуа')
+  else:
+    print('Собака весит более 50кг?')
+    weight=input()
+    if weight=='да' or weight=='Да':
+      print('Детский дог')
+    else:
+      print('Фоксхауд')
+else:
+  print('Рост собаки менее 50см?')
+  hight2=input()
+  if hight2=='да' or hight2=='Да':
+    print('У собаки доброжелательный характер?')
+    kind=input()
+    if kind=='да' or kind=='Да':
+      print('Кокер-спаниэль')
+    else:
+      print('Ирландский сеттер')
+  else:
+    print('Рост собаки менее 70см?')
+    seventy=input()
+    if seventy=='да' or seventy=='Да':
+      print('У собаки длинные уши?')
+      ear=input()
+      if ear=='да' or ear=='Да':
+        print('Большой вандейский грифон')
+      else:
+        print('Колли')
+    else:
+      print('Окрас с белыми отметинами?')
+      color=input()
+      if color=='да' or color=='Да':
+        print('Сербернар')
+      else:
+        print('Белоснежный окрас?')
+        white=input()
+        if white=='да' or white=='Да':
+          print('Ирландский волкодав')
+        else:
+          print('Ньюфаундленд')
