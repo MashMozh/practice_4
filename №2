@@ -1,0 +1,6 @@
+first=input()
+second=input()
+if first=='Генрих' and second=='Герц':
+  print('Верно')
+else:
+  print('Неверно')
