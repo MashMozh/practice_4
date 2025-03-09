@@ -1,0 +1,5 @@
+name=input()
+if name=='Джеймс Бонд' or name=='джеймс бонд' or name=='ДЖЕЙМС БОНД':
+  print('Верно')
+else:
+  print('Неверно')
