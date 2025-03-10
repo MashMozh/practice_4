@@ -3,10 +3,10 @@ name=input()
 print(f'Очень приятно, {name}!', 'Меня зовут Марк')
 print('Сколько вам лет?')
 age=int(input())
-if age>78:
-  print(f'Да, {name}, вы старше меня на {age-78} лет')
-elif age<78:
-  print(f'Да, {name}, вы младше меня на {78-age} лет')
+if age>80:
+  print(f'Да, {name}, вы старше меня на {age-80} лет')
+elif age<80:
+  print(f'Да, {name}, вы младше меня на {80-age} лет')
 else:
   print(f'Да, {name}, вы мой ровесник')
 print('Вам нравится программировать?')
